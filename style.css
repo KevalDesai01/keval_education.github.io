@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+span {
+    margin-left: 25px;
+    padding-top: -20px;
+}
+
+.btn-contact {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    margin-left: 390px;
+    column-gap: 45px;
+}
+
+.navbar-brand {
+    font-family: 'Sedgwick Ave Display';
+    font-weight: 700;
+    font-size: 30px;
+    color: orange;
+
+}
+
+.container-fluid {
+    background: #6F3DFF;
+    box-shadow: 0px 5px 6px 0px orange;
+
+}
+
+.navbar-toggler {
+    border: 5px solid orange;
+}
+
+.hero-image {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: justify;
+    margin-top: 50px;
+    color: white;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin-top: 50px;
+}
+
+.btn-start {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a890f3;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+#house_sdnt_cunt {
+    margin-top: 80px;
+}
+
+.col-lg-2 {
+    border: 2px solid #a890f3;
+    box-shadow:
+        rgb(31, 193, 27) 0px 0px 0px 6px,
+        rgb(255, 217, 19) 0px 0px 0px 9px,
+        rgb(255, 85, 85) 0px 0px 0px 15px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+.timer,
+.student,
+.country {
+    display: block;
+    margin: 20px auto;
+}
+
+.digit {
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #612efc;
+}
+
+.text-timer,
+.text-student,
+.text-country {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #612efc;
+    margin-bottom: 20px;
+}
+
+.courses {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+    color: #fc7634;
+}
+
+.text_courses {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1f7e45;
+}
+
+#card-section {
+    margin-top: 80px;
+    /* border: 1px solid black; */
+}
+
+.col-lg-3 {
+    display: block;
+    margin: auto;
+}
+
+.web-image,
+.creative-image,
+.Graphic-image {
+    width: 100%;
+}
+
+.web-heading,
+.creative-heading,
+.Graphic-heading {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fc7634;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-courses,
+.text-creative,
+.text-Graphic {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1f7e45;
+}
+
+.lesson {
+    font-size: 15px;
+    /* margin-left: 5px; */
+    color: #612efc;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.music {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    /* border: 1px solid black; */
+}
+
+.music-img {
+    display: block;
+    margin: auto;
+}
+
+.Lerning {
+    margin-top: 80px;
+}
+
+.col-lg-7 {
+    /* border: 1px solid white; */
+}
+
+.round-img1 {
+    display: block;
+    margin: 20px auto;
+}
+
+.round-img2 {
+    margin-top: -230px;
+}
+
+.round-img3 {
+    margin-left: 200px;
+    margin-top: -200px;
+}
+
+.round-img4 {
+    margin-top: -26px;
+}
+
+.round-img5 {
+    margin-top: -180px;
+    margin-left: 170px;
+}
+
+.round-img6 {
+    margin-left: 340px;
+    margin-top: -380px;
+
+}
+
+.round-img7 {
+    margin-top: -150px;
+}
+
+.text-learning {
+    font-family: 700;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+ul li {
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.text-ler {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#instructor {
+    margin-top: 80px;
+}
+
+.be-n-inst {
+    font-weight: 700;
+    font-size: 50px;
+    color: #fc7634;
+}
+
+.text-inst {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1f7e45;
+}
+
+.btn-apply {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    color: #fc7634;
+    border: 2px solid #612efc;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+#testimonial {
+    margin-top: 80px;
+}
+
+#col-testi {
+    border: none;
+    box-shadow: none;
+}
+
+.img-T-1 {
+    float: right;
+    margin-top: 50px;
+}
+
+.img-T-2 {
+    margin-top: 200px;
+    float: left;
+}
+
+.heading-testi {
+    font-weight: 700;
+    font-size: 50px;
+    color: #fc7634;
+    text-align: center;
+}
+
+.text-testi {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #1f7e45;
+    margin-top: 20px;
+}
+
+.div-testi {
+    border: 2px solid #a890f3;
+    border-radius: 20px;
+    width: 500px;
+    display: block;
+    margin: 60px auto;
+}
+
+.text-testi-div {
+    font-weight: 400;
+    font-size: 18px;
+    /* text-align: center; */
+    margin-left: 100px;
+    color: #612efc;
+    margin-top: -130px;
+}
+
+.img-T-3 {
+    margin-left: -80px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+
+}
+
+.jeo {
+    /* float: right; */
+    margin-top: 0px;
+    margin-left: 370px;
+    color: #fc7634;
+}
+
+.img-T-7 {
+    margin-top: 200px;
+
+}
+
+#footer {
+    /* border: 1px solid black; */
+    background-color: #a890f3;
+    margin-top: 80px;
+    box-shadow:
+        rgb(31, 193, 27) 0px 0px 0px 6px,
+        rgb(255, 217, 19) 0px 0px 0px 9px,
+        rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+#row-contact-support {
+    /* border: 1px solid white; */
+}
+
+.heading-support-contact {
+    font-size: 600;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer-list {
+    font-weight: 500;
+    font-size: 18px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+marquee {
+    font-weight: 900;
+    font-size: 30px;
+    color: #fc7634;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .navbar-nav {
+        margin-left: 200px;
+        column-gap: 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .round-img6 {
+        margin-left: 280px;
+        margin-top: -800px;
+    }
+
+    .round-img5 {
+        margin-top: 50px;
+    }
+
+    .round-img3 {
+        margin-top: -40px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .navbar-nav {
+        margin-left: 50px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+
+    .hero-image {
+        display: block;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .btn-start {
+        width: 200px;
+        height: 50px;
+        display: block;
+        margin: 40px auto;
+    }
+
+    .col-lg-2 {
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .col-lg-3 {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .web-image,
+    .creative-image,
+    .Graphic-image {
+        width: 100%;
+    }
+
+    .web-heading,
+    .creative-heading,
+    .Graphic-heading {
+        font-size: 40px;
+    }
+
+    .text-courses,
+    .text-creative,
+    .text-Graphic {
+        font-size: 20px;
+    }
+
+    .lesson {
+        /* font-size: 17px; */
+    }
+
+    .round-img6 {
+        margin-left: 400px;
+        margin-top: -380px;
+    }
+
+    .text-learning {
+        margin-top: 50px;
+    }
+
+    .text-ler {
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    .be-n-inst {
+        text-align: center;
+    }
+
+    .btn-apply {
+        display: block;
+        margin: 40px auto;
+    }
+
+    .girl-img {
+        display: block;
+        margin: auto;
+    }
+
+    #testimonial {
+        margin-top: 0px;
+    }
+
+    .img-T-1 {
+        float: right;
+        margin-top: 10px;
+    }
+
+    .img-T-2 {
+        margin-top: 100px;
+        float: left;
+    }
+
+    .heading-testi {
+        margin-top: 50px;
+    }
+
+    .img-T-7 {
+        margin-top: -200px;
+        margin-left: 300px;
+    }
+}
+
+/* 569 */
+@media only screen and (max-width:768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .round-img6 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .round-img3 {
+        margin-top: -80px;
+        margin-left: 80px;
+    }
+
+    .round-img2 {
+        margin-top: -60px;
+    }
+
+    .div-testi {
+        width: 400px;
+        display: block;
+        margin: 60px auto;
+    }
+
+    .text-testi-div {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 100px;
+        color: #612efc;
+    }
+
+    .jeo {
+        margin-left: 300px;
+    }
+
+}
+
+@media only screen and (max-width:568px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .hero-image {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .courses {
+        font-size: 20px;
+    }
+
+    .round-img1 {
+        margin-left: -15px;
+    }
+
+    .round-img5 {
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+
+    .round-img7 {
+        margin-top: 0px;
+    }
+
+    .div-testi {
+        width: 250px;
+    }
+
+    .text-testi-div {
+        font-size: 12px;
+    }
+
+    .img-T-3 {
+        margin-left: -50px;
+    }
+
+    .img-T-6 {
+        margin-left: 0px;
+    }
+
+    .img-T-7 {
+        margin-left: 100px;
+    }
+
+    .jeo {
+        margin-left: 130px;
+    }
+}
